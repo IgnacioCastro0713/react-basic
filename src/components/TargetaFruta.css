@@ -1,0 +1,14 @@
+.target-fruit {
+    border: 1px solid black;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    padding: 1em;
+    background: #FFF;
+    color: #000;
+    transition: all 400ms ease-out;
+}
+
+.target-fruit-active {
+    background: linear-gradient(45deg, black, blue);
+    color: #FFF;
+}

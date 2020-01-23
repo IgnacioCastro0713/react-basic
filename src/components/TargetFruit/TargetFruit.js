@@ -1,7 +1,8 @@
-import React from "react";
-import './TargetaFruta.css'
+import React from 'react';
 
-class TargetFruitClass extends React.Component {
+import styles from './TargetaFruta.module.css'
+
+class TargetFruit extends React.Component {
 
   state = {
 	quantity: 0
@@ -23,7 +24,7 @@ class TargetFruitClass extends React.Component {
 	const hasItems = this.state.quantity > 0;
 
 	return (
-		<div className={`target-fruit ${hasItems ? 'target-fruit-active' : ''}`}>
+		<div className={`${styles['target-fruit']} ${hasItems ? styles['target-fruit-active'] : ''}`}>
 		  <h3>{this.props.name}</h3>
 		  <div>Cantidad: {this.state.quantity}</div>
 		  <button onClick={this.addQuantity}> +</button>
@@ -36,4 +37,4 @@ class TargetFruitClass extends React.Component {
   }
 }
 
-export default TargetFruitClass;
+export default TargetFruit;

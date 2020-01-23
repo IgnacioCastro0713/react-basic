@@ -2,14 +2,12 @@ import React from "react";
 
 // import { TargetFruits } from './components';
 // import { Counter } from './components'
-import { Cat } from "./components";
+// import { Cat } from "./components";
+import { MouseEvent } from "./components";
 
 const App = () => (
 	<div>
-	  <Cat
-		  name='Garfield'
-		  age='2 years'
-	  />
+	  <MouseEvent/>
 	</div>
 );
 

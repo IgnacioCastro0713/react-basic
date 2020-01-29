@@ -4,11 +4,12 @@ import React from "react";
 // import { Counter } from './components'
 // import { Cat } from "./components";
 // import { MouseEvent } from "./components";
-import { PersistenceEvent } from "./components";
+//import { PersistenceEvent } from "./components";
+import { Father } from './components'
 
 const App = () => (
 	<div>
-	  <PersistenceEvent/>
+	  <Father/>
 	</div>
 );
 

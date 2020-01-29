@@ -8,6 +8,7 @@ Puede hacer spread operator desde los props ejemplo:
 const Cat = (props) => {
   return (
   	<div>
+	  {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
 	  <h1>Cat 🐈</h1>
 	  <pre>
 		{JSON.stringify(props, null, 4)}
